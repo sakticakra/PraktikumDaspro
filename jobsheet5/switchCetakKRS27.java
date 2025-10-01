@@ -38,7 +38,6 @@ public class switchCetakKRS27 {
                 break;
         }
 
-        
     }
     
 }
