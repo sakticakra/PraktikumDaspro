@@ -5,18 +5,13 @@ public class ifCetakKRS27 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-       System.out.println("--- Cetak KRS Siakad---");
-       System.out.print("apakah ukt sudah lunas? (true/false): ");
-         boolean uktLunas = scanner.nextBoolean();
+        System.out.print("--- Cetak KRS Siakad---");
+        System.out.print("apakah ukt sudah lunas? (true/false) : ");
+        boolean uktLunas = scanner.nextBoolean();
 
-         if (uktLunas) {
-              System.out.println("pembayaran ukt terverifikasi");
-              System.out.println("silahkan cetak krs dan minta tanda tangan DPA");
-            } else {
-              System.out.println("Registrasi ditolak. Silakan lunasi UKT terlebih dahulu");
-
-
+        String a = (uktLunas) ? "pembayaran ukt terverivikasi " : "registrasi ditolak, silahkan lunasi ukt terlebih dahulu";
+        System.out.println(a);
        }
    }
-}
+
        
